@@ -16,14 +16,13 @@
 ### 1. Clone โปรเจกต์
 ให้นักศึกษาทำการ Fork หรือ Clone Repository นี้ไปยังเครื่องของตัวเอง
 ```bash
-git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/[YOUR-REPO-NAME].git
-cd [YOUR-REPO-NAME]
+git clone https://github.com/krisada-oud/CPE_Hackathon_1_2026.git
 ```
 
 ### 2. การเตรียม Environment และติดตั้ง Library (เลือกวิธีที่สะดวก)
 #### 2.1 ช่องทางที่ 1: ติดตั้งผ่าน Conda
 ```bash
-# สร้าง environment ใหม่ชื่อ ai-env (แนะนำ Python 3.10)
+# สร้าง environment ใหม่ชื่อ [YOUR_ENV_NAME] (แนะนำ Python 3.10)
 conda create -n [YOUR_ENV_NAME] python=3.10 -y
   
 # เปิดใช้งาน environment
@@ -38,7 +37,7 @@ conda install gradio numpy
 conda env create -f requirements.yml
   
 # เปิดใช้งาน environment
-conda activate ai-env
+conda activate [YOUR_ENV_NAME]
 ```
 
 ## ขอให้ทุกท่านสนุกกับกิจกรรมในครั้งนี้ ขอบคุณครับ
